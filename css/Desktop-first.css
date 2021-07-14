@@ -34,18 +34,25 @@ ul {
 .col-sidebar {
     width: calc(100% - 40px);
     margin: auto;
-    flex-direction: column;
+    position: relative;
+    height: 100%;
 }
 
 .box-logo {
     background-color: chocolate;
     height: 90px;
+    width: 100%;
 }
 
 .img-logo {
     width: 70%;
 }
 
+
+.box-install {
+    position: absolute;
+    bottom: 0;
+}
 /* banner-lg */
 .banner-lg {
     position: absolute;
