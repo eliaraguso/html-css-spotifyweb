@@ -8,4 +8,45 @@
 /* common */
 .container {
     width: 100%;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+/* aside-lg */
+.aside-lg {
+    flex-basis: 230px;
+    flex-direction: column;
+    background-color: black;
+    height: calc(100vh - 90px);
+}
+
+/* banner-lg */
+.banner-lg {
+    height: 90px;
+    flex-basis: calc(100% - 230px);
+    min-width: 0;
+    /* background-color: rgba(20, 25, 35, 0,7); */
+    background-color: blueviolet;
+}
+
+/* main-lg */
+/* .main-lg {
+    background-color: burlywood;
+    height: calc(100vh - 180px);
+    flex-basis: calc(100% - 230px);
+
+} */
+
+
+/* navbar-lg */
+.navbar-lg {
+    height: 90px;
+    background-color: brown;
+    flex-basis: 100%;
+    align-self: flex-end;
 }
