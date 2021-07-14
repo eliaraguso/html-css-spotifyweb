@@ -21,7 +21,6 @@
 .aside-lg {
     flex-basis: 230px;
     flex-direction: column;
-    background-color: black;
     height: calc(100vh - 90px);
 }
 
@@ -30,13 +29,10 @@
     height: 90px;
     flex-basis: calc(100% - 230px);
     min-width: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    /* background-color: blueviolet; */
 }
 
 /* main-lg */
 .main-lg {
-    background-color: #141922;
     height: calc(100vh - 90px);
     flex-basis: calc(100% - 230px);
 
@@ -46,6 +42,5 @@
 /* navbar-lg */
 .navbar-lg {
     height: 90px;
-    background-color: brown;
     flex-basis: 100%;
 }
