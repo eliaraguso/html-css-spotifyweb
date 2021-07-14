@@ -30,17 +30,17 @@
     height: 90px;
     flex-basis: calc(100% - 230px);
     min-width: 0;
-    /* background-color: rgba(20, 25, 35, 0,7); */
-    background-color: blueviolet;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: blueviolet; */
 }
 
 /* main-lg */
-/* .main-lg {
-    background-color: burlywood;
-    height: calc(100vh - 180px);
+.main-lg {
+    background-color: #141922;
+    height: calc(100vh - 90px);
     flex-basis: calc(100% - 230px);
 
-} */
+}
 
 
 /* navbar-lg */
@@ -48,5 +48,4 @@
     height: 90px;
     background-color: brown;
     flex-basis: 100%;
-    align-self: flex-end;
 }
