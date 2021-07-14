@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Desktop-first -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/Desktop-first.css">
     <link rel="stylesheet" href="css/breakpoints.css">
     <!-- /Desktop-first -->
@@ -14,8 +15,8 @@
 <body>
     <div class="container">
         <!-- Banner -->
-        <div class="banner-lg">
-
+        <div class="banner-lg flex">
+            <div class="button"><a href="#">EFFETTUA L'UPGRADE</a></div>
         </div>
         <!-- /Banner -->
         <!-- Sidebar -->
@@ -25,16 +26,19 @@
                     <img class="img-logo" src="img/logo.svg" alt="Logo Spotify">
                 </div>
                 <div class="box-home container">
-                    <ul>
-                        <li><a href="#"> Home</a></li>
-                        <li><a href="#">Cerca</a></li>
-                        <li><a href="#">La tua libreria</a></li>
+                    <ul class="grey">
+                        <li><i class="fas fa-home"></i> <a href="#">Home</a></li>
+                        <li><i class="fas fa-search"></i> <a href="#">Cerca</a></li>
+                        <li><i class="fas fa-book"></i> <a href="#">La tua libreria</a></li>
                     </ul>
                 </div>
                 <div class="box-playlist container">
                     <h3>PLAYLIST</h3>
-                    <a href="btn-create-playlist"></a>
-                    <ul>
+                    <a class="btn-playlist-create"href="#">
+                        <i class="fas fa-plus-square"></i>
+                         Crea Playlist
+                        </a>
+                    <ul class="grey">
                         <li><a href="#">Nome Playlist</a></li>
                         <li><a href="#">Nome Playlist</a></li>
                         <li><a href="#">Nome Playlist</a></li>
@@ -45,11 +49,13 @@
                     </ul>
                 </div>
                 <div class="box-install container">
-                    <div class="container">    
-                        <a href="#">Installa app</a>
+                    <div class="container flex box-install-app">
+                        <img class="img-download" src="img/download.svg" alt="download logo">
+                        <a class="grey-txt" href="#">Installa app</a>
                     </div>
-                    <div class="container">    
-                        <a href="#">John Doe</a>
+                    <div class="container box-user">
+                        <i class="far fa-user white-txt"></i>    
+                        <a class="white-txt" href="#">John Doe</a>
                     </div>
                 </div>
             </div>
