@@ -22,7 +22,6 @@ ul {
 
 /* aside-lg */
 .sidebar-lg {
-    position: absolute;
     width: 230px;
     height: calc(100vh - 90px);
     left: 0;
@@ -34,24 +33,32 @@ ul {
 .col-sidebar {
     width: calc(100% - 40px);
     margin: auto;
-    position: relative;
     height: 100%;
+    flex-direction: column;
 }
 
 .box-logo {
     background-color: chocolate;
     height: 90px;
-    width: 100%;
+    
 }
 
 .img-logo {
     width: 70%;
 }
 
+.box-home {
+    background-color: cyan;
+}
 
+.box-playlist {
+    background-color: gold;
+    flex-grow: 1;
+    overflow-y: auto;
+}
 .box-install {
-    position: absolute;
-    bottom: 0;
+    background-color: thistle;
+    
 }
 /* banner-lg */
 .banner-lg {
@@ -68,7 +75,7 @@ ul {
     position: absolute;
     height: calc(100vh - 180px);
     width: calc(100% - 230px);
-    overflow-y: scroll;
+    overflow-y: auto;
     top: 90px;
     right: 0;
 }
