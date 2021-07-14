@@ -15,15 +15,35 @@
     display: flex;
 }
 
+ul {
+    list-style: none;
+}
 
 
 /* aside-lg */
-.aside-lg {
+.sidebar-lg {
     position: absolute;
     width: 230px;
     height: calc(100vh - 90px);
     left: 0;
     top: 0;
+    color: #717171;
+    background-color: black;
+}
+
+.col-sidebar {
+    width: calc(100% - 40px);
+    margin: auto;
+    flex-direction: column;
+}
+
+.box-logo {
+    background-color: chocolate;
+    height: 90px;
+}
+
+.img-logo {
+    width: 70%;
 }
 
 /* banner-lg */
