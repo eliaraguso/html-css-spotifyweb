@@ -8,7 +8,7 @@
 /* common */
 .container {
     width: 100%;
-    flex-wrap: wrap;
+    position: relative;
 }
 
 .flex {
@@ -19,28 +19,38 @@
 
 /* aside-lg */
 .aside-lg {
-    flex-basis: 230px;
-    flex-direction: column;
+    position: absolute;
+    width: 230px;
     height: calc(100vh - 90px);
+    left: 0;
+    top: 0;
 }
 
 /* banner-lg */
 .banner-lg {
+    position: absolute;
+    top: 0;
+    right: 0;
     height: 90px;
-    flex-basis: calc(100% - 230px);
-    min-width: 0;
+    width: calc(100% - 230px);
+    z-index: 1;
 }
 
 /* main-lg */
 .main-lg {
-    height: calc(100vh - 90px);
-    flex-basis: calc(100% - 230px);
-
+    position: absolute;
+    height: calc(100vh - 180px);
+    width: calc(100% - 230px);
+    overflow-y: scroll;
+    top: 90px;
+    right: 0;
 }
 
 
 /* navbar-lg */
 .navbar-lg {
+    position: absolute;
     height: 90px;
-    flex-basis: 100%;
+    top: calc(100vh - 90px);
+    width: 100%;
 }

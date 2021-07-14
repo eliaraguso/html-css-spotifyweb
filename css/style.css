@@ -3,6 +3,10 @@
     background-color: black;
 }
 
+.box-logo {
+    height: 90px;
+}
+
 /* banner-lg */
 .banner-lg {
     background-color: rgba(0, 0, 0, 0.5);
@@ -16,5 +20,5 @@
 
 /* navbar-lg */
 .navbar-lg {
-    background-color: brown;
+    background-color: #282828;
 }
