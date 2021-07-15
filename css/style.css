@@ -66,6 +66,11 @@ aside a {
     background-color: #282828;
 }
 
+.nav-center a, .nav-right a{
+    color: white;
+}
+
+/* effetti hover */
 a:hover,
 a:hover h3,
 a:hover p,
