@@ -20,6 +20,11 @@ body {
 }
 
 /* typo */
+h5 {
+    color: white;
+    font-weight: 600;
+}
+
 h3 {
     color: #717171;
     font-size: 1rem;
@@ -39,6 +44,9 @@ h2 {
     background-color: black;
 }
 
+aside a {
+    font-weight: 600
+}
 /* banner-lg */
 .banner-lg {
     background-color: rgba(8, 11, 18, 0.5);
@@ -58,3 +66,9 @@ h2 {
     background-color: #282828;
 }
 
+a:hover,
+a:hover h3,
+a:hover p,
+a:hover .far {
+    color: white;
+} 

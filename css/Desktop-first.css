@@ -107,6 +107,16 @@ i {
     background-color:black;top:0;bottom:0;left:0;right:0
 }
 
+aside a {
+    line-height: 50px;
+}
+
+.home-icon,
+.search-icon,
+.library-icon {
+    display: inline-block;
+    width: 26px;
+}
 /* banner-lg */
 .banner-lg {
     position: absolute;
@@ -145,12 +155,12 @@ color: white;
 
 .main-nav {
     justify-content: center;
+    padding-top: 40px;
 }
 
 .main-nav li {
     margin: 0 25px;
     color: white;
-    line-height: 55px;
 }
 
 .box-music img {
@@ -188,11 +198,50 @@ color: white;
     margin: 0 2%;
 }
 
+.box-music h3 {
+    color: white;
+}
+
 /* navbar-lg */
 .navbar-lg {
     position: absolute;
     height: 90px;
     top: calc(100vh - 90px);
     width: 100%;
+    justify-content: space-between;
 }
+
+.navbar-lg img{
+    height: 50%;
+    display: inline-block;
+    
+}
+
+.cont-nav {
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 10px;
+}
+
+.cont-nav-icons {
+    line-height: 90px;
+    margin-left: 1rem;
+}
+.direction-col {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont-nav p {
+    font-weight: 600;
+    color: #717171;
+    font-size: 0.8rem;
+}
+
+.fa-heart {
+    padding: 0 1.4rem;
+}
+
+
 

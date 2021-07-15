@@ -30,9 +30,9 @@
                 </div>
                 <div class="box-home container">
                     <ul class="grey">
-                        <li><i class="fas fa-home"></i> <a href="#">Home</a></li>
-                        <li><i class="fas fa-search"></i> <a href="#">Cerca</a></li>
-                        <li><i class="fas fa-book"></i> <a href="#">La tua libreria</a></li>
+                        <li><img class="home-icon" src="img/home.svg" alt="home icon"> <a href="#">Home</a></li>
+                        <li><img src="img/search.svg" alt="search icon" class="search-icon"><a href="#">Cerca</a></li>
+                        <li><img src="img/libreria.svg" alt="library icon" class="library-icon"><a href="#">La tua libreria</a></li>
                     </ul>
                 </div>
                 <div class="box-playlist container">
@@ -40,7 +40,7 @@
                     <a class="btn-playlist-create"href="#">
                         <i class="square-cross"></i>
                          Crea Playlist
-                        </a>
+                    </a>
                     <ul class="grey">
                         <li><a href="#">Nome Playlist</a></li>
                         <li><a href="#">Nome Playlist</a></li>
@@ -69,12 +69,12 @@
             <section class="container nav-container">
                 <nav>
                     <ul class="flex main-nav">
-                        <li><h3>IN EVIDENZA</h3></li>
-                        <li><h3>PODCAST</h3></li>
-                        <li><h3>CLASSIFICHE</h3></li>
-                        <li><h3>GENERI E MOOD</h3></li>
-                        <li><h3>NUOVE USCITE</h3></li>
-                        <li><h3>SCOPRI</h3></li>
+                        <li><a href="#"><h3>IN EVIDENZA</h3></a></li>
+                        <li><a href="#"><h3>PODCAST</h3></a></li>
+                        <li><a href="#"><h3>CLASSIFICHE</h3></a></li>
+                        <li><a href="#"><h3>GENERI E MOOD</h3></a></li>
+                        <li><a href="#"><h3>NUOVE USCITE</h3></a></li>
+                        <li><a href="#"><h3>SCOPRI</h3></a></li>
                     </ul>
                 </nav> 
             </section>               
@@ -165,8 +165,25 @@
 
         <!-- /main -->
         <!-- bottom navbar -->
-        <nav class="navbar-lg">
-
+        <nav class="navbar-lg flex">
+            <div class="nav-left flex">
+                <div class="cont-nav flex">
+                    <img src="img/sinister.jpeg" alt="sinister album">
+                </div>
+                <div class="cont-nav flex direction-col">
+                    <h5>Sinister</h5>
+                    <a href=""><p>Brano Nome</p></a>
+                </div>
+                <div class="cont-nav cont-nav-icons grey-txt">
+                    <a><i class="far fa-heart"></i></a>
+                    <a><i class="far fa-folder"></i></a>
+                </div>
+            </div>
+            <div class="nav-center flex direction-col">
+                <div class="nav-center-cont-top"></div>
+                <div class="nav-center-cont-bottom"></div>
+            </div>
+            <div class="nav-right"></div>
         </nav>
         <!-- /bottom navbar -->
     </div>
