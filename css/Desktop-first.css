@@ -250,7 +250,11 @@ color: white;
 }
 
 .fa-heart {
-    padding: 0 1.4rem;
+    padding-right: 0.4rem;
+}
+
+.fa-folder, .fa-heart {
+    font-size: 1rem;
 }
 
 .box-nav-action {
@@ -273,7 +277,7 @@ color: white;
     height: 5px;
     background-color: #717171;
     display: inline-block;
-    width: 20rem;
+    width: 24rem;
     margin: 0 1.4rem;
     border-radius: 10px;
     vertical-align: middle;
@@ -309,6 +313,18 @@ color: white;
     margin-left: 0.8rem;
 }
 
+.progress-mark-small {
+    height: 5px;
+    background-color: #c1c1c1;
+    width: 2rem;
+    border-radius: 10px;
+}
 
+.progress-mark-big {
+    height: 5px;
+    background-color: #c1c1c1;
+    width: 10rem;
+    border-radius: 10px;
+}
 
 
