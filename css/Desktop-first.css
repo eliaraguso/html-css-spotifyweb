@@ -25,7 +25,6 @@ i {
 }
 
 
-
 /* aside-lg */
 .sidebar-lg {
     width: 230px;
@@ -179,6 +178,14 @@ color: white;
 
 .box-music p {
     font-weight: 600;
+}
+
+.music-container-start {
+    justify-content: flex-start;
+}
+
+.music-container-start .box-music {
+    margin: 0 2%;
 }
 
 /* navbar-lg */
