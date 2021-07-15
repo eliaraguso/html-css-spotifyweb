@@ -23,6 +23,8 @@ i {
     font-size: 2rem;
 }
 
+
+
 /* aside-lg */
 .sidebar-lg {
     width: 230px;
@@ -116,6 +118,49 @@ color: white;
     right: 0;
 }
 
+.main-nav {
+    justify-content: center;
+}
+
+.main-nav li {
+    margin: 0 25px;
+    color: white;
+    line-height: 55px;
+}
+
+.box-music img {
+    width: 100%;
+}
+
+/* .padding-lr-10 {
+    padding: 0 10px;
+}
+
+.padding-l-20 {
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.padding-r-20 {
+    padding-right: 30px;
+    padding-left: 10px;
+} */
+
+.box-music {
+    text-align: center;
+    width: calc((100% / 7));
+}
+
+.recently-container {
+    justify-content: space-evenly;
+}
+
+.box-music p {
+    color: #717171;
+}
+
+
+
 
 /* navbar-lg */
 .navbar-lg {
@@ -124,3 +169,4 @@ color: white;
     top: calc(100vh - 90px);
     width: 100%;
 }
+
