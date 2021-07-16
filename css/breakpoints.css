@@ -32,7 +32,7 @@
 @media screen and (max-width: 600px) {
     .box-music {
         text-align: center;
-        width: calc((100%));
+        width: calc((100% / 2));
         position: relative;
         padding: 0 10px;
     }
@@ -40,5 +40,34 @@
     .music-container {
         flex-wrap: wrap;
         justify-content: flex-start;
+    }
+
+    .sidebar-lg {
+        width: 50px;
+    }
+
+    .col-sidebar {
+        width: 100%;
+    }
+
+    .col-sidebar a, 
+    .col-sidebar h3 {
+        display: none;
+        border: transparent;
+    }
+
+    .box-install-app {
+        border: transparent;
+        justify-content: center;
+    }
+
+    .box-user {
+        text-align: center;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
