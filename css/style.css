@@ -76,4 +76,9 @@ a:hover h3,
 a:hover p,
 a:hover .far {
     color: white;
-} 
+}
+
+.btn-playlist-create:hover .square-cross {
+    background: white;
+    border-color: white;
+}
