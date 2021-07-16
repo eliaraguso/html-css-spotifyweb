@@ -1,15 +1,15 @@
 /* devices from 701px to max-width (inclusive) */
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
 	
 }
 
 
 /* devices from 601px to 700px (inclusive) */
-@media (max-width: 700px) {	
+@media screen and (max-width: 700px) {	
 	
 }
 
 /* devices from 0px to 600px (inclusive) */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
 }
