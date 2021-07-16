@@ -175,12 +175,12 @@ color: white;
 
 .box-music img {
     width: 100%;
-    margin-bottom: 10px;
 }
 
 .box-music {
     text-align: center;
     width: calc((100% / 7));
+    position: relative;
 }
 
 .music-container {
@@ -211,6 +211,25 @@ color: white;
 .box-music h3 {
     color: white;
 }
+.album-img {
+    position: relative;
+}
+.box-music:hover .album-img::after {
+    content: "\f144";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.308);
+    font-family: "Font Awesome 5 Free";
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* navbar-lg */
 .navbar-lg {
@@ -219,6 +238,7 @@ color: white;
     top: calc(100vh - 90px);
     width: 100%;
     justify-content: space-between;
+    font-weight: 400;
 }
 
 .navbar-lg img{

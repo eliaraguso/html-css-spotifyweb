@@ -82,3 +82,7 @@ a:hover .far {
     background: white;
     border-color: white;
 }
+
+.box-music:hover .overlay-album {
+    opacity: 1;
+}
