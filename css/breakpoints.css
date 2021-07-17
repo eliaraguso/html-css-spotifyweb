@@ -84,4 +84,8 @@
     .img-logo {
         display: none;
     }
+
+    .main-lg {
+        width: calc(100% - 50px);
+    }
 }
