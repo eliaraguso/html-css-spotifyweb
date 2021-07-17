@@ -124,9 +124,12 @@ aside a {
     margin-top: 2.2rem;
 }
 
-.img-logo::after {
-    content: ;
+.img__logo--small {
+    width: 70%;
+    display: none;
 }
+
+
 /* banner-lg */
 .banner-lg {
     position: absolute;

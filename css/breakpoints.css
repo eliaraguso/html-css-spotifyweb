@@ -74,6 +74,14 @@
     .box-logo {
         display: flex;
         justify-content: center;
-        
+    }
+
+    .img__logo--small {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .img-logo {
+        display: none;
     }
 }
