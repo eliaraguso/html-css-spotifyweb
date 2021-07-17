@@ -171,7 +171,6 @@ color: white;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    height: 100px;
 }
 
 .navbar-top {
@@ -182,6 +181,7 @@ color: white;
 .main-nav li {
     margin: 0 25px;
     color: white;
+    line-height: 60px;
 }
 
 .box-music img {
