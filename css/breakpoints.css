@@ -70,4 +70,10 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .box-logo {
+        display: flex;
+        justify-content: center;
+        
+    }
 }

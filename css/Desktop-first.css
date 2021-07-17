@@ -123,6 +123,10 @@ aside a {
     margin-bottom: 0.6rem;
     margin-top: 2.2rem;
 }
+
+.img-logo::after {
+    content: ;
+}
 /* banner-lg */
 .banner-lg {
     position: absolute;
