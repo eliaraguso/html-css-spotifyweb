@@ -133,7 +133,7 @@ aside a {
     top: 0;
     right: 0;
     height: 90px;
-    width: calc(100% - 230px);
+    width: 100%;
     z-index: 1;
     justify-content: flex-end;
 }
