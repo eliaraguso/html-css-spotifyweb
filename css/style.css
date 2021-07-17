@@ -86,3 +86,20 @@ a:hover .far {
 .box-music:hover .overlay-album {
     opacity: 1;
 }
+
+.button:hover {
+    transform: scale(1.1,1.1);
+}
+
+.progress-bar-secondary:hover .progress-mark-small,
+.progress-bar-primary:hover .progress-mark-big {
+    background-color: greenyellow;
+}
+
+.progress-bar-primary:hover .progress-mark-pointer {
+    display: block;
+}
+
+.progress-bar-secondary:hover .progress-mark-pointer {
+    display: block;
+}

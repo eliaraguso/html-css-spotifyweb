@@ -152,9 +152,7 @@ aside a {
     height: 40px;
     line-height: 40px;
 }
-.button:hover {
-    transform: scale(1.1,1.1);
-}
+
 .button a {
 line-height: calc(2rem - 22px);
 color: white;
@@ -379,3 +377,16 @@ color: white;
     word-spacing: 1rem;
 }
 
+.progress-mark-pointer {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: center;
+    display: none;
+}
+
+.progress-mark-big,
+.progress-mark-small {
+    justify-content: flex-end;
+}

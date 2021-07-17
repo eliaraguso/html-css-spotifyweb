@@ -7,9 +7,10 @@
         padding: 0 10px;
 }
 
-.music-container {
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    .music-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 }
 
 
