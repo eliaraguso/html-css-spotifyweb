@@ -89,4 +89,22 @@
     .main-lg {
         width: calc(100% - 50px);
     }
+
+    .fa-list,
+    .fa-desktop,
+    .fa-volume-up {
+        display: none;
+    }
+
+    .nav-right {
+        display: flex;
+    }
+
+    .progress-bar-secondary {
+        width: 8rem;
+    }
+
+    .cont-nav-icons {
+        display: none;
+    }
 }

@@ -136,7 +136,7 @@ aside a {
     top: 0;
     right: 0;
     height: 90px;
-    width: 100%;
+    width: calc(100% - 230px);
     z-index: 1;
     justify-content: flex-end;
 }
@@ -389,4 +389,8 @@ color: white;
 .progress-mark-big,
 .progress-mark-small {
     justify-content: flex-end;
+}
+
+.fa-play-circle {
+    font-size: 3rem;
 }
