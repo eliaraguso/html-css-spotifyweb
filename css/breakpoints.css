@@ -107,10 +107,8 @@
     .cont-nav-icons {
         display: none;
     }
-/* 
-    .main-nav a:hover .main-nav h3::after {
-        display: initial;
-    }
- */
 
+    .banner-lg {
+        width: calc(100% - 50px);
+    }
 }
