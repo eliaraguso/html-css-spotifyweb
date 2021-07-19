@@ -182,7 +182,10 @@ color: white;
     margin: 0 25px;
     color: white;
     line-height: 60px;
+    position: relative;
 }
+
+
 
 .box-music img {
     width: 100%;
